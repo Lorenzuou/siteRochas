@@ -1,0 +1,195 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    body {
+        overflow-x: hidden;
+        color: #EAF2EF;
+    }
+    
+    #brand {
+        transition: 0.2s;
+    }
+    
+    #secao1 {
+        margin-top: 1rem;
+    }
+    
+    #secao2 {
+        padding: 1rem;
+    }
+    
+    #titulo {
+        width: 75vh;
+        height: 40vh;
+        margin-left: 5vh;
+    }
+    
+    #titulo h1 {
+        font-size: 3rem;
+    }
+    
+    #botao1 {
+        padding: 1rem;
+        background-color: #122A4C;
+        color: #EAF2EF;
+        display: block;
+        font-size: 3vh;
+        width: 50%;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    
+    #botao1:hover {
+        background-color: #363946;
+    }
+    
+    #secao1 h1 {
+        font-size: 10vh;
+        color: #EAF2EF;
+    }
+    
+    #subtexto {
+        margin-left: 30%;
+        width: 45vh;
+    }
+    
+    .corzinha {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(19, 10, 51, 0.5);
+    }
+    
+    .iconeHeader{ 
+        margin: auto;
+        width: 1.5rem;
+        height: auto;
+        
+     
+    }
+
+
+    .navbar-nav{ 
+        background-color: #122A4C;
+    }
+
+    #cartao {
+        position: absolute;
+        width: 80vh;
+        height: 67vh;
+        color: #EAF2EF;
+        background-color: #11151C;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        left: 50%;
+        margin-left: -40vh;
+        text-align: center;
+    }
+    
+    #homeText {
+        position: absolute;
+        width: auto;
+        height: 66.9vh;
+        left: 0;
+        transition: left 0.4s;
+    }
+    
+    #homeText:hover {
+        left: -5vh;
+    }
+    
+    @media screen and (max-width:800px) {
+        #homeText {
+            width: 110vw;
+            height: auto;
+            margin-left: 0;
+        }
+        #homeText:hover {
+            left: 0;
+        }
+        #cartao {
+            width: 100vw;
+            height: auto;
+            margin-left: -34vh;
+        }
+        #titulo {
+            width: 70%;
+        }
+        #col2 {
+            margin-top: 6rem;
+        }
+        #secao1 h1 {
+            font-size: 5vh;
+            color: #EAF2EF;
+        }
+        #secao2 {
+            margin-top: 10rem;
+        }
+        #subtexto {
+            padding: 1rem;
+            margin-left: 20%;
+            margin-top: 2rem;
+            background-color: #11151C;
+        }
+        #cartao {
+            background-color: rgb(23, 23, 2323, 0);
+            clip-path: none;
+        }
+        #botao1 {
+            width: 7 0vw;
+        }
+        #vai {
+            display: none;
+        }
+    }
+    
+    .produto {
+        background-size: cover;
+        width: 80%;
+        margin: auto;
+        height: 40vh;
+        color: #11151C;
+    }
+    
+    .coluna {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .link1 {
+        color: #EAF2EF;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 1rem;
+        padding: 1vh;
+        border-radius: 1%;
+        border: #EAF2EF;
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .link1:hover {
+        transition: 0.4s;
+        background-color: #EAF2EF;
+        color: #122A4C;
+        text-decoration: none;
+        border: solid 1px #122A4C;
+    }
+    
+    .link1:hover .produto {
+        background-color: #122A4C;
+    }
+
+
+    footer a{
+        color: rgb(255, 255, 255); 
+
+    }

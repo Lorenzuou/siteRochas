@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #122A4C;
+    color: #fff;
+    justify-content: center;
+    position: sticky;
+    z-index: 100;
+}
+
+header ul li a {
+    list-style: none;
+    transition: all 0.3s;
+    color: #fff;
+    font-size: 18px;
+}
+
+body {
+    background-color: #11151C;
+}
+
+header ul li a:hover {
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #363946;
+}
+
+.navbar {
+    background-color: #122A4C;
+    height: 5.2rem;
+    transition: height 0.3s;
+}
+
+.navbar:hover {
+    transition: 0.2s;
+    background-color: #122A4C;
+}
+
+.navbar-muda {
+    height: 3rem;
+}
+
+.navbar-brand {
+    transition: width 0.3s, height 0.3s;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.dropdown-menu {
+    background-color: #363946;
+    border-radius: 0;
+    border: none;
+}
+
+.dropdown-menu a {
+    color: white;
+}
+
+.dropdown-menu a:hover {
+    color: #122A4C;
+}
+
+footer {
+    background-color: #11151C;
+    color: whitesmoke;
+}
